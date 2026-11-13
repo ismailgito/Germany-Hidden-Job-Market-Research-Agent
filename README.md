@@ -2,7 +2,7 @@
   <img src="assets/hero-banner.svg" alt="Animated banner: a radar sweeps over German cities for the Germany Hidden Job Market Research Agent" width="100%">
 </p>
 
-#  🇩🇪 Germany Hidden Job Market Research Agent & Recruitment Analyst
+# 🇩🇪 Germany Hidden Job Market Research Agent & Recruitment Analyst
 
 An AI-powered recruitment research agent designed to uncover, verify, and match high-signal, onsite junior and entry-level job opportunities in Germany within the **hidden job market**.
 
