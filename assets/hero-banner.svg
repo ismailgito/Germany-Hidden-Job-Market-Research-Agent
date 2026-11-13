@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320" role="img" aria-labelledby="t d">
+  <title id="t">Germany Hidden Job Market Research Agent</title>
+  <desc id="d">Animated banner: a radar sweeps over German cities while hidden job signals pulse.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1220"/>
+      <stop offset="1" stop-color="#111c33"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e5e7eb"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1200" height="320" rx="18"/></clipPath>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; }
+    .rise { opacity: 0; animation: rise .9s ease-out forwards; }
+    @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
+    .d1 { animation-delay: .2s; } .d2 { animation-delay: .6s; } .d3 { animation-delay: 1.0s; }
+    .d4 { animation-delay: 1.3s; } .d5 { animation-delay: 1.6s; } .d6 { animation-delay: 1.9s; }
+    .grow { transform-box: fill-box; transform-origin: left center; transform: scaleX(0); animation: grow 1.2s 1.0s ease-out forwards; }
+    @keyframes grow { to { transform: scaleX(1); } }
+    .twinkle { animation: twinkle 3s ease-in-out infinite; }
+    @keyframes twinkle { 0%, 100% { opacity: .1; } 50% { opacity: .9; } }
+  </style>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <!-- German flag stripe -->
+    <rect y="0" width="1200" height="4" fill="#000000"/>
+    <rect y="4" width="1200" height="4" fill="#dd0000"/>
+    <rect y="8" width="1200" height="4" fill="#ffce00"/>
+
+    <!-- faint grid -->
+    <g stroke="#22d3ee" stroke-opacity=".05">
+      <path d="M0 80H1200M0 160H1200M0 240H1200"/>
+      <path d="M200 0V320M400 0V320M600 0V320M800 0V320M1000 0V320"/>
+    </g>
+
+    <!-- headline -->
+    <g>
+      <text class="rise d1" x="80" y="92" font-size="16" font-weight="600" letter-spacing="3" fill="#22d3ee">AI RECRUITMENT RESEARCH AGENT</text>
+      <text class="rise d2" x="80" y="152" font-size="52" font-weight="800" fill="url(#title)">Germany Hidden Job Market</text>
+      <rect class="grow" x="80" y="168" width="360" height="4" rx="2" fill="#ffce00"/>
+      <text class="rise d3" x="80" y="204" font-size="20" fill="#9ca3af">Find, verify and match onsite junior roles nobody else is applying to.</text>
+
+      <g class="rise d4"><rect x="80" y="232" width="128" height="34" rx="17" fill="#22d3ee" fill-opacity=".12" stroke="#22d3ee" stroke-opacity=".6"/>
+        <text x="144" y="254" font-size="15" text-anchor="middle" fill="#a5f3fc">Onsite only</text></g>
+      <g class="rise d5"><rect x="222" y="232" width="190" height="34" rx="17" fill="#34d399" fill-opacity=".12" stroke="#34d399" stroke-opacity=".6"/>
+        <text x="317" y="254" font-size="15" text-anchor="middle" fill="#a7f3d0">Junior · Entry-level</text></g>
+      <g class="rise d6"><rect x="426" y="232" width="250" height="34" rx="17" fill="#fbbf24" fill-opacity=".12" stroke="#fbbf24" stroke-opacity=".6"/>
+        <text x="551" y="254" font-size="15" text-anchor="middle" fill="#fde68a">Max 5 verified roles / day</text></g>
+    </g>
+
+    <!-- radar -->
+    <g>
+      <g fill="none" stroke="#22d3ee" stroke-opacity=".28">
+        <circle cx="971" cy="170" r="45"/>
+        <circle cx="971" cy="170" r="90"/>
+        <circle cx="971" cy="170" r="135"/>
+        <path d="M836 170H1106M971 35V305" stroke-opacity=".18"/>
+      </g>
+
+      <!-- sweep -->
+      <g>
+        <path d="M971 170 L971 35 A135 135 0 0 1 1066.5 74.5 Z" fill="#22d3ee" fill-opacity=".16"/>
+        <path d="M971 170 L1066.5 74.5" stroke="#67e8f9" stroke-width="2" stroke-linecap="round"/>
+        <animateTransform attributeName="transform" type="rotate" from="0 971 170" to="360 971 170" dur="6s" repeatCount="indefinite"/>
+      </g>
+
+      <!-- hidden signals (small flickering dots) -->
+      <g fill="#67e8f9">
+        <circle class="twinkle" cx="900" cy="120" r="2" style="animation-delay:.2s"/>
+        <circle class="twinkle" cx="1050" cy="190" r="2" style="animation-delay:1.1s"/>
+        <circle class="twinkle" cx="930" cy="270" r="2" style="animation-delay:2.0s"/>
+        <circle class="twinkle" cx="1075" cy="250" r="2" style="animation-delay:.7s"/>
+        <circle class="twinkle" cx="880" cy="215" r="2" style="animation-delay:1.6s"/>
+        <circle class="twinkle" cx="1000" cy="60" r="2" style="animation-delay:2.4s"/>
+        <circle class="twinkle" cx="1085" cy="140" r="2" style="animation-delay:.4s"/>
+      </g>
+
+      <!-- cities -->
+      <g font-size="12" fill="#cbd5e1">
+        <!-- Hamburg -->
+        <circle cx="960" cy="116" r="4" fill="#fbbf24"/>
+        <circle cx="960" cy="116" r="4" fill="none" stroke="#fbbf24"><animate attributeName="r" values="4;18" dur="3s" begin="0s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="3s" begin="0s" repeatCount="indefinite"/></circle>
+        <text x="950" y="112" text-anchor="end">Hamburg</text>
+        <!-- Berlin -->
+        <circle cx="1029" cy="147" r="4" fill="#fbbf24"/>
+        <circle cx="1029" cy="147" r="4" fill="none" stroke="#fbbf24"><animate attributeName="r" values="4;18" dur="3s" begin=".5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="3s" begin=".5s" repeatCount="indefinite"/></circle>
+        <text x="1038" y="143">Berlin</text>
+        <!-- Cologne -->
+        <circle cx="900" cy="197" r="4" fill="#fbbf24"/>
+        <circle cx="900" cy="197" r="4" fill="none" stroke="#fbbf24"><animate attributeName="r" values="4;18" dur="3s" begin="1s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="3s" begin="1s" repeatCount="indefinite"/></circle>
+        <text x="890" y="193" text-anchor="end">Cologne</text>
+        <!-- Leipzig -->
+        <circle cx="1009" cy="183" r="4" fill="#fbbf24"/>
+        <circle cx="1009" cy="183" r="4" fill="none" stroke="#fbbf24"><animate attributeName="r" values="4;18" dur="3s" begin="1.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="3s" begin="1.5s" repeatCount="indefinite"/></circle>
+        <text x="1018" y="187">Leipzig</text>
+        <!-- Frankfurt -->
+        <circle cx="935" cy="224" r="4" fill="#fbbf24"/>
+        <circle cx="935" cy="224" r="4" fill="none" stroke="#fbbf24"><animate attributeName="r" values="4;18" dur="3s" begin="2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="3s" begin="2s" repeatCount="indefinite"/></circle>
+        <text x="925" y="228" text-anchor="end">Frankfurt</text>
+        <!-- Stuttgart -->
+        <circle cx="944" cy="264" r="4" fill="#fbbf24"/>
+        <circle cx="944" cy="264" r="4" fill="none" stroke="#fbbf24"><animate attributeName="r" values="4;18" dur="3s" begin="2.5s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="3s" begin="2.5s" repeatCount="indefinite"/></circle>
+        <text x="934" y="268" text-anchor="end">Stuttgart</text>
+        <!-- Munich -->
+        <circle cx="993" cy="284" r="4" fill="#fbbf24"/>
+        <circle cx="993" cy="284" r="4" fill="none" stroke="#fbbf24"><animate attributeName="r" values="4;18" dur="3s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values=".9;0" dur="3s" begin="1.2s" repeatCount="indefinite"/></circle>
+        <text x="1003" y="288">Munich</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" width="1000" height="280" role="img" aria-labelledby="t d">
+<title id="t">Daily limit of five verified jobs</title>
+<desc id="d">Five job cards are verified one at a time and the counter reaches 5 of 5, the daily cap.</desc>
+<style>text { font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; }</style>
+<rect width="1000" height="280" rx="18" fill="#0b1220"/>
+<rect width="1000" height="4" fill="#000"/><rect y="4" width="1000" height="4" fill="#dd0000"/><rect y="8" width="1000" height="4" fill="#ffce00"/>
+<text x="500" y="54" font-size="20" font-weight="700" text-anchor="middle" fill="#e5e7eb">Daily Job Limit: quality over quantity</text>
+<g opacity="0">
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.0800;0.1300;0.93;1" dur="10.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 18;0 18;0 0;0 0;0 0" keyTimes="0;0.0800;0.1300;0.93;1" dur="10.0s" repeatCount="indefinite"/>
+<rect x="75" y="86" width="150" height="120" rx="14" fill="#111c33" stroke="#34d399" stroke-opacity=".6"/>
+<rect x="91" y="104" width="90" height="10" rx="5" fill="#334155"/>
+<rect x="91" y="124" width="118" height="8" rx="4" fill="#1f2937"/>
+<rect x="91" y="140" width="90" height="8" rx="4" fill="#1f2937"/>
+<text x="91" y="186" font-size="13" fill="#9ca3af">Role #1</text>
+<circle cx="197" cy="109" r="12" fill="#34d399"/>
+<path d="M192 109 l4 4 l7 -8" fill="none" stroke="#0b1220" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="20" stroke-dashoffset="20"><animate attributeName="stroke-dashoffset" values="20;20;0;0;0" keyTimes="0;0.1300;0.1600;0.93;1" dur="10.0s" repeatCount="indefinite"/></path>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.2100;0.2600;0.93;1" dur="10.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 18;0 18;0 0;0 0;0 0" keyTimes="0;0.2100;0.2600;0.93;1" dur="10.0s" repeatCount="indefinite"/>
+<rect x="250" y="86" width="150" height="120" rx="14" fill="#111c33" stroke="#34d399" stroke-opacity=".6"/>
+<rect x="266" y="104" width="90" height="10" rx="5" fill="#334155"/>
+<rect x="266" y="124" width="118" height="8" rx="4" fill="#1f2937"/>
+<rect x="266" y="140" width="90" height="8" rx="4" fill="#1f2937"/>
+<text x="266" y="186" font-size="13" fill="#9ca3af">Role #2</text>
+<circle cx="372" cy="109" r="12" fill="#34d399"/>
+<path d="M367 109 l4 4 l7 -8" fill="none" stroke="#0b1220" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="20" stroke-dashoffset="20"><animate attributeName="stroke-dashoffset" values="20;20;0;0;0" keyTimes="0;0.2600;0.2900;0.93;1" dur="10.0s" repeatCount="indefinite"/></path>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.3400;0.3900;0.93;1" dur="10.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 18;0 18;0 0;0 0;0 0" keyTimes="0;0.3400;0.3900;0.93;1" dur="10.0s" repeatCount="indefinite"/>
+<rect x="425" y="86" width="150" height="120" rx="14" fill="#111c33" stroke="#34d399" stroke-opacity=".6"/>
+<rect x="441" y="104" width="90" height="10" rx="5" fill="#334155"/>
+<rect x="441" y="124" width="118" height="8" rx="4" fill="#1f2937"/>
+<rect x="441" y="140" width="90" height="8" rx="4" fill="#1f2937"/>
+<text x="441" y="186" font-size="13" fill="#9ca3af">Role #3</text>
+<circle cx="547" cy="109" r="12" fill="#34d399"/>
+<path d="M542 109 l4 4 l7 -8" fill="none" stroke="#0b1220" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="20" stroke-dashoffset="20"><animate attributeName="stroke-dashoffset" values="20;20;0;0;0" keyTimes="0;0.3900;0.4200;0.93;1" dur="10.0s" repeatCount="indefinite"/></path>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4700;0.5200;0.93;1" dur="10.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 18;0 18;0 0;0 0;0 0" keyTimes="0;0.4700;0.5200;0.93;1" dur="10.0s" repeatCount="indefinite"/>
+<rect x="600" y="86" width="150" height="120" rx="14" fill="#111c33" stroke="#34d399" stroke-opacity=".6"/>
+<rect x="616" y="104" width="90" height="10" rx="5" fill="#334155"/>
+<rect x="616" y="124" width="118" height="8" rx="4" fill="#1f2937"/>
+<rect x="616" y="140" width="90" height="8" rx="4" fill="#1f2937"/>
+<text x="616" y="186" font-size="13" fill="#9ca3af">Role #4</text>
+<circle cx="722" cy="109" r="12" fill="#34d399"/>
+<path d="M717 109 l4 4 l7 -8" fill="none" stroke="#0b1220" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="20" stroke-dashoffset="20"><animate attributeName="stroke-dashoffset" values="20;20;0;0;0" keyTimes="0;0.5200;0.5500;0.93;1" dur="10.0s" repeatCount="indefinite"/></path>
+</g>
+<g opacity="0">
+<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6000;0.6500;0.93;1" dur="10.0s" repeatCount="indefinite"/>
+<animateTransform attributeName="transform" type="translate" values="0 18;0 18;0 0;0 0;0 0" keyTimes="0;0.6000;0.6500;0.93;1" dur="10.0s" repeatCount="indefinite"/>
+<rect x="775" y="86" width="150" height="120" rx="14" fill="#111c33" stroke="#34d399" stroke-opacity=".6"/>
+<rect x="791" y="104" width="90" height="10" rx="5" fill="#334155"/>
+<rect x="791" y="124" width="118" height="8" rx="4" fill="#1f2937"/>
+<rect x="791" y="140" width="90" height="8" rx="4" fill="#1f2937"/>
+<text x="791" y="186" font-size="13" fill="#9ca3af">Role #5</text>
+<circle cx="897" cy="109" r="12" fill="#34d399"/>
+<path d="M892 109 l4 4 l7 -8" fill="none" stroke="#0b1220" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="20" stroke-dashoffset="20"><animate attributeName="stroke-dashoffset" values="20;20;0;0;0" keyTimes="0;0.6500;0.6800;0.93;1" dur="10.0s" repeatCount="indefinite"/></path>
+</g>
+<text x="500" y="248" font-size="22" font-weight="800" text-anchor="middle" fill="#e5e7eb" opacity="0">0/5 verified<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.1290;0.1300;1" dur="10.0s" repeatCount="indefinite"/></text>
+<text x="500" y="248" font-size="22" font-weight="800" text-anchor="middle" fill="#e5e7eb" opacity="0">1/5 verified<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.1300;0.1310;0.2590;0.2600;1" dur="10.0s" repeatCount="indefinite"/></text>
+<text x="500" y="248" font-size="22" font-weight="800" text-anchor="middle" fill="#e5e7eb" opacity="0">2/5 verified<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2600;0.2610;0.3890;0.3900;1" dur="10.0s" repeatCount="indefinite"/></text>
+<text x="500" y="248" font-size="22" font-weight="800" text-anchor="middle" fill="#e5e7eb" opacity="0">3/5 verified<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.3900;0.3910;0.5190;0.5200;1" dur="10.0s" repeatCount="indefinite"/></text>
+<text x="500" y="248" font-size="22" font-weight="800" text-anchor="middle" fill="#e5e7eb" opacity="0">4/5 verified<animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.5200;0.5210;0.6490;0.6500;1" dur="10.0s" repeatCount="indefinite"/></text>
+<text x="500" y="248" font-size="22" font-weight="800" text-anchor="middle" fill="#ffce00" opacity="0">5/5 verified · daily cap reached<animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.6500;0.6510;0.93;1" dur="10.0s" repeatCount="indefinite"/></text>
+</svg>
